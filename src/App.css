@@ -1,0 +1,2967 @@
+.siderbarButtonDiv:hover .navButton {
+  color: rgb(125, 174, 216) !important;
+}
+
+.navButton {
+  margin-left: 1rem;
+}
+
+.placeRoundedIcon {
+  width: 1.99rem !important;
+  height: 1.99rem !important;
+}
+
+.EmailRoundedIcon {
+  width: 1.84rem !important;
+  height: 1.84rem !important;
+}
+
+.sendRoundedIcon {
+  width: 1.37rem !important;
+  height: 1.37rem !important;
+}
+
+.phoneRoundedIconContactSection {
+  width: 2.1rem !important;
+  height: 2.1rem !important;
+  position: relative;
+  right: 3.79px;
+}
+
+.EmailRoundedIconContactSection {
+  width: 1.83rem !important;
+  height: 1.83rem !important;
+  position: relative;
+  right: 3.79px;
+}
+
+.placeRoundedIconContactSection {
+  width: 1.83rem !important;
+  height: 1.83rem !important;
+  position: relative;
+  right: 3.79px;
+}
+
+.mainCardButton {
+  width: 1.99rem !important;
+  height: 1.99rem !important;
+  position: absolute;
+  align-items: start;
+  text-align: start;
+  top: 10px;
+  left: 10px;
+  color: white;
+  z-index: 4;
+  visibility: hidden;
+}
+
+.modalClose {
+  font-size: 1.8rem;
+
+  position: absolute;
+  top: 15.8px;
+  right: 15.8px;
+  width: 2.08rem !important;
+  height: 2.08rem !important;
+  cursor: pointer;
+}
+
+.modalClose:hover {
+  color: rgb(214, 212, 212);
+}
+
+.container .animate {
+  animation: jumpingAnimation 1.4s 0.1s ease-in infinite;
+  position: absolute !important;
+  bottom: 48px !important;
+  cursor: pointer;
+  width: 2.7rem !important;
+  height: 2.7rem !important;
+}
+
+@keyframes jumpingAnimation {
+  50% {
+    transform: translate3d(0, 30px, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.dArrowContainer {
+  position: absolute !important;
+  bottom: 0px !important;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .dArrowContainer {
+    margin-bottom: 6.89rem;
+  }
+}
+
+.email {
+  color: rgb(134, 187, 234) !important;
+}
+
+.email:hover {
+  color: rgb(125, 174, 216) !important;
+}
+
+.resumeButton:hover {
+  /* background-color: rgb(125, 174, 216) !important; */
+  background-color: rgb(134, 187, 234) !important;
+  color: white !important;
+}
+
+.resumeButton {
+  position: relative;
+  font-size: 17px !important;
+  color: white !important;
+  border-radius: 30px !important;
+  text-transform: none !important;
+  border: solid 2px rgb(134, 187, 234) !important;
+  color: rgb(134, 187, 234) !important;
+  width: 14rem !important;
+  height: 3.3rem !important;
+  /* background-color: rgb(134, 187, 234) !important; */
+}
+
+.footer {
+  background-color: rgb(32, 38, 43) !important;
+  width: 100% !important;
+  height: 5.3rem !important;
+  position: absolute;
+  bottom: 0px;
+}
+
+.messageButton:hover {
+  background-color: rgb(125, 174, 216) !important;
+  border-color: rgb(125, 174, 216) !important;
+}
+
+.messageButton {
+  font-size: 17px !important;
+  color: white !important;
+  border-radius: 30px !important;
+  text-transform: none !important;
+  border: solid 2px rgb(134, 187, 234) !important;
+  width: 12.7rem !important;
+  height: 2.8rem !important;
+  background-color: rgb(134, 187, 234) !important;
+  border-color: rgb(134, 187, 234) !important;
+}
+
+.visitSiteButton:hover {
+  background-color: rgb(70, 127, 176) !important;
+  border: solid 2px rgb(70, 127, 176) !important;
+}
+
+.visitSiteButton {
+  font-size: 17px !important;
+  color: white !important;
+  border-radius: 30px !important;
+  text-transform: none !important;
+  border: solid 2px rgb(84, 145, 198) !important;
+  width: 7rem !important;
+  /* height: 3.3rem !important; */
+  background-color: rgb(84, 145, 198) !important;
+}
+
+.mainButton:hover {
+  color: white !important;
+
+  background-color: rgb(134, 187, 234) !important;
+}
+
+.mainButton {
+  font-size: 17px !important;
+  border-radius: 30px !important;
+  text-transform: none !important;
+  border: solid 2px rgb(134, 187, 234) !important;
+  color: rgb(134, 187, 234) !important;
+  width: 8.7rem !important;
+  height: 3.3rem !important;
+
+  /* background-color: rgb(134, 187, 234) !important; */
+}
+
+/* SIDEBAR */
+
+.proNav {
+  position: fixed !important;
+  height: 100vh !important;
+
+  /* top: 0 !important; */
+
+  border-right-width: 0px !important;
+  /* border-right-style: none !important; */
+  border-width: 0px !important;
+  width: 16.625rem !important;
+  /* position: -webkit-sticky !important; */
+}
+
+.nameDeco {
+  height: 7px;
+  width: 7px;
+  background-color: rgb(239, 87, 85);
+  border-radius: 50px;
+  position: absolute;
+  right: 2.815rem;
+  bottom: 1.22rem;
+}
+
+.navImage {
+  border-radius: 50px;
+  /* border-width: 8px;
+    border-style: solid;
+    border-color: rgba(47, 48, 48, 0.4) */
+  margin-left: 1.35rem;
+  margin-bottom: 1.4rem;
+}
+
+.sideNavMuiButton {
+  /* padding-left: 0rem !important; */
+  /* min-width: 14rem !important; */
+
+  justify-content: start !important;
+}
+
+.sideNavMuiButton:hover {
+  /* padding-left: 0rem; */
+  /* min-width: 14rem !important; */
+  background-color: transparent !important;
+}
+
+.sideNavIconDiv:hover {
+  /* background-color: rgb(40, 40, 40, .4) !important; */
+  /* background-color: rgb(40, 40, 40, .4) !important; */
+
+  border-radius: 9px;
+
+  height: 2.5rem;
+  width: 15rem;
+  /* margin-left: .429rem; */
+  /* padding-left: .8rem; */
+  min-width: 204.7px !important;
+}
+
+.linkedInIcon {
+  position: absolute !important;
+  bottom: 1.15rem;
+  left: 5.9rem;
+  font-size: 3rem !important;
+}
+
+.linkToProfile {
+  position: absolute !important;
+  bottom: 1rem;
+  left: 1.1rem;
+  font-size: 1rem !important;
+
+  /* text-transform: none !important; */
+}
+
+.linkedInIconFooter {
+  font-size: 3rem !important;
+}
+
+.linkToProfileFooter {
+  font-size: 1rem !important;
+
+  margin-top: 0.3rem !important;
+  /* text-transform: none !important; */
+}
+
+.sideNavIconDiv {
+  min-width: 204.7px !important;
+  /* background-color: #282828 !important; */
+
+  margin-top: 1rem;
+  /* padding-left: .8rem; */
+  width: 15rem;
+  height: 2.5rem;
+}
+
+.sideNavIconDivCollapsed:hover {
+  background-color: #282828 !important;
+  color: #f1f1f1 !important;
+  border-radius: 9px;
+  /* padding-right: .25rem; */
+  text-align: center;
+  height: 4.625rem;
+  width: 4rem;
+  /* z-index: 2; */
+  padding-top: 1.25rem;
+
+  margin-left: 0.21rem;
+  padding-left: 1.29rem;
+  margin-top: 0.1rem;
+}
+
+.sideNavIconDivCollapsed {
+  height: 4.625rem;
+  width: 4rem;
+  text-align: center;
+
+  margin-left: 0.21rem;
+  padding-left: 1.29rem;
+  padding-top: 1.25rem;
+  margin-top: 0.1rem;
+}
+
+.sideNavIconDivInnerText:hover {
+  background-color: #202020 !important;
+
+  border-radius: 9px;
+  color: #f1f1f1 !important;
+
+  /* height: 2.5rem; */
+  width: 87%;
+
+  /* margin-left: .7rem;
+    padding-left: .8rem; */
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .container .animate {
+    right: 47.84%;
+  }
+
+  .contactDiv {
+    padding-bottom: 0.83rem;
+  }
+
+  .mainTextContainer {
+    height: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .basedInContainer {
+    height: 1.89rem;
+    margin-bottom: 1.89rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    display: none !important;
+  }
+
+  .container .animate {
+    right: 48.04%;
+  }
+
+  .mainTextContainer {
+    height: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .basedInContainer {
+    height: 1.89rem;
+    margin-bottom: 1.89rem;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .container .animate {
+    right: 47.01%;
+  }
+
+  .mainTextContainer {
+    height: 5rem;
+    /* margin-bottom: 1rem; */
+  }
+
+  .basedInContainer {
+    height: 1.89rem;
+    margin-bottom: 1.89rem;
+  }
+
+  .contactDiv {
+    padding-bottom: 0.83rem;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .mainTextContainer {
+    height: 4rem;
+    /* margin-bottom: 1rem; */
+  }
+
+  .basedInContainer {
+    height: 1.89rem;
+    margin-bottom: 1.89rem;
+  }
+
+  .contactDiv {
+    padding-bottom: 5.67rem;
+  }
+}
+
+.navbar-nav > li > {
+  background-color: #000 !important;
+}
+
+@media (max-width: 576px) {
+  .mainTextContainer {
+    height: 4rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .basedInContainer {
+    height: 1.89rem;
+    margin-bottom: 1.89rem;
+  }
+
+  .contactDiv {
+    padding-bottom: 5.67rem;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 546px) {
+  .container .animate {
+    right: 45.795%;
+  }
+}
+
+@media (max-width: 546px) and (min-width: 400px) {
+  .container .animate {
+    right: 44.8%;
+  }
+}
+
+@media (max-width: 399px) {
+  .container .animate {
+    right: 44.1%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .proNav {
+    display: none !important;
+  }
+}
+
+/* ////////// */
+
+.pageTitle {
+  margin-top: 3.75rem;
+}
+
+.contactDiv {
+  padding-top: 8rem;
+}
+
+.pageTitleBar {
+  background: rgb(239, 87, 85);
+  border-radius: 25px;
+  display: block;
+  height: 5px;
+  margin-top: 14px;
+  width: 2.39rem;
+  margin-left: 0.74rem;
+}
+
+.modalDividerColor {
+  border-color: rgba(154, 155, 159, 0.1) !important;
+}
+
+.listColor {
+  color: rgb(223, 223, 223);
+}
+
+.listColorContact {
+  color: rgb(223, 223, 223);
+  font-size: 1.15rem;
+}
+
+listColorContact .listText {
+  color: rgb(223, 223, 223);
+}
+
+@media (min-width: 1200px) {
+  .mainText {
+    font-size: 3.7rem !important;
+    font-weight: 597 !important;
+  }
+}
+
+.aboutMeMainScroll {
+  position: absolute;
+  height: 100%;
+  top: 0rem;
+}
+
+.projectsMainScroll {
+  position: absolute;
+  height: 100%;
+  top: 0rem;
+}
+
+.resumeMainScroll {
+  position: absolute;
+  height: 100%;
+  top: 0rem;
+}
+
+.contactMainScroll {
+  position: absolute;
+  height: 100%;
+  top: 0rem;
+}
+
+@media (max-width: 1200px) {
+  .aboutMeMainScroll {
+    position: absolute;
+    height: 100%;
+    top: -3.5rem;
+  }
+
+  .homePageMainScroll {
+    position: absolute;
+    height: 100%;
+    top: -3.5rem;
+  }
+
+  .projectsMainScroll {
+    position: absolute;
+    height: 100%;
+    top: -3.5rem;
+  }
+
+  .resumeMainScroll {
+    position: absolute;
+    height: 100%;
+    top: -3.5rem;
+  }
+
+  .contactMainScroll {
+    position: absolute;
+    height: 100%;
+    top: -3.5rem;
+  }
+
+  .homePageMain {
+    margin-top: 3.5rem;
+
+    height: calc(100vh - 3.5rem) !important;
+    /* scroll-margin-top: 3.5rem; */
+  }
+
+  .homePage {
+    min-height: calc(100vh - 3.5rem) !important;
+  }
+}
+
+.homePageMain {
+  background-color: rgb(32, 38, 43) !important;
+  height: 100vh;
+  position: relative !important;
+}
+
+.homePage {
+  min-height: 100vh;
+
+  position: relative;
+  padding-top: 15.8rem;
+  padding-bottom: 14rem;
+}
+
+.aboutMeMain {
+  background-color: rgb(48, 54, 59) !important;
+  padding-bottom: 8rem;
+  /* padding-top: 1.8rem; */
+  position: relative;
+}
+
+@media (max-width: 1200px) {
+  .homePage {
+    padding-top: 13.57rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .homePage {
+    padding-top: 12.97rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .homePage {
+    padding-top: 13.53rem !important;
+  }
+
+  .welcomeMargin {
+    margin-bottom: 1.4rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .homePage {
+    padding-top: 13.84rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutMeMain {
+    padding-bottom: 3.75rem;
+  }
+
+  .contactMain {
+    padding-bottom: 3.75rem !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .projectsMain {
+    padding-bottom: 3.17rem !important;
+  }
+
+  .resumeSummary {
+    height: 14.491rem !important;
+  }
+
+  .resumeInnerCol {
+    padding-top: 4.34rem !important;
+  }
+
+  .professionalExperience {
+    height: 22.39rem !important;
+  }
+
+  .resumeMain {
+    padding-bottom: 5.8rem !important;
+  }
+
+  .resumeButton {
+    margin-top: 1.9rem !important;
+    top: 2.98rem;
+  }
+
+  .welcomeMargin {
+    margin-bottom: 1.089rem !important;
+  }
+
+  .homePage {
+    padding-top: 15.89rem !important;
+  }
+}
+
+@media (max-width: 428px) and (min-width: 391px) {
+  .professionalExperience {
+    height: 19.48rem !important;
+  }
+
+  .homePage {
+    padding-top: 18.14rem !important;
+  }
+
+  .resumeMain {
+    padding-bottom: 5.8rem !important;
+  }
+
+  .resumeButton {
+    margin-top: 1.89rem !important;
+    top: 2.98rem;
+  }
+
+  .helloText {
+    font-size: 1.79rem !important;
+  }
+
+  .projectsMain {
+    padding-bottom: 3.23rem !important;
+  }
+}
+
+.mainTextContainer .Typewriter__wrapper {
+  font-weight: 590 !important;
+}
+
+.mainText {
+  font-size: 3.7rem !important;
+}
+
+@media (max-width: 992px) {
+  .mainText {
+    font-size: 3.1rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainText {
+    font-size: 2.389rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .mainText {
+    font-size: 2.31rem !important;
+  }
+}
+
+@media (max-width: 525px) {
+  .mainText {
+    font-size: 2.15rem !important;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 812px) {
+  .welcomeMargin {
+    margin-bottom: 1.23rem !important;
+  }
+
+  .homePage {
+    padding-top: 13.01rem !important;
+  }
+
+  .resumeSummary {
+    height: 15.73rem !important;
+  }
+
+  .resumeInnerCol {
+    padding-top: 4.67rem !important;
+  }
+
+  .professionalExperience {
+    height: 22.23rem !important;
+  }
+
+  .resumeMain {
+    padding-bottom: 5.8rem !important;
+  }
+
+  .resumeButton {
+    margin-top: 1.98rem !important;
+    top: 2.89rem;
+  }
+
+  .aboutMeMain {
+    padding-bottom: 3.48rem !important;
+  }
+
+  .projectImage {
+    width: 100% !important;
+    height: 13.1rem !important;
+  }
+
+  .paragraphHeight {
+    line-height: 1.7 !important;
+  }
+
+  .projectsMain {
+    padding-bottom: 3.34rem !important;
+  }
+
+  .helloText {
+    font-size: 1.67rem !important;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .container .animate {
+    bottom: 71.4px !important;
+    right: 43.795%;
+  }
+
+  .welcomeMargin {
+    margin-bottom: 1.23rem !important;
+  }
+
+  .homePage {
+    padding-top: 10.1rem !important;
+  }
+
+  .resumeSummary {
+    height: 15.73rem !important;
+  }
+
+  .resumeInnerCol {
+    padding-top: 4.67rem !important;
+  }
+
+  .professionalExperience {
+    height: 22.23rem !important;
+  }
+
+  .resumeMain {
+    padding-bottom: 5.8rem !important;
+  }
+
+  .resumeButton {
+    margin-top: 2.17rem !important;
+    top: 2.78rem;
+  }
+
+  .projectImage {
+    width: 100% !important;
+    height: 13.1rem !important;
+  }
+
+  .paragraphHeight {
+    line-height: 1.7 !important;
+  }
+
+  .projectsMain {
+    padding-bottom: 3.34rem !important;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .resumeButton {
+    margin-top: 1.67rem !important;
+    top: 3.97rem !important;
+  }
+
+  .resumeMain {
+    padding-bottom: 7.34rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .resumeButton {
+    margin-top: 1.67rem !important;
+    top: 4.53rem !important;
+  }
+}
+
+@media (max-width: 575px) and (min-width: 429px) {
+  .resumeButton {
+    margin-top: 1.78rem !important;
+    top: 4.3rem;
+  }
+
+  .resumeMain {
+    padding-bottom: 7.34rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .resumeMain {
+    padding-bottom: 8rem;
+  }
+
+  .resumeButton {
+    margin-top: 1.67rem !important;
+    top: 4.37rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contactMain {
+    padding-bottom: 6.053rem !important;
+  }
+}
+
+.contactMain {
+  background-color: rgb(48, 54, 59) !important;
+  padding-bottom: 8.701rem;
+  /* padding-top: 2.18rem; */
+  position: relative;
+}
+
+.resumeMain {
+  background-color: rgb(48, 54, 59) !important;
+  position: relative;
+}
+
+.projectsMain {
+  background-color: rgb(32, 38, 43) !important;
+  padding-bottom: 4.18rem;
+  /* padding-top: 1.8rem; */
+  position: relative;
+}
+
+.skill {
+  background-color: rgb(48, 54, 59) !important;
+  border-radius: 2rem;
+  /* width: fit-content; */
+  padding: 0.4rem;
+  box-shadow: 0px 0.44rem 0.5rem rgba(0, 0, 0, 0.07);
+}
+
+.skillTools {
+  background-color: rgb(48, 54, 59) !important;
+  border-radius: 2rem;
+  /* width: fit-content; */
+  padding: 0.4rem;
+  box-shadow: 0px 0.4rem 0.5rem rgba(0, 0, 0, 0.07);
+}
+
+.skillInsideTools {
+  font-size: 1rem;
+  margin-bottom: 0px;
+  padding: 0.2rem 0.67rem;
+  color: #b1b1b1;
+}
+
+.skillInside {
+  font-size: 1.28rem;
+  margin-bottom: 0px;
+  padding: 0.2rem 0.67rem;
+  color: #d8d9d9;
+}
+
+.experienceDate {
+  font-size: 1rem;
+  background-color: rgb(32, 38, 43) !important;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.skillsContent {
+  padding-top: 5rem;
+}
+
+.logo {
+  width: 118px;
+  height: 118px;
+}
+
+.mainSkills {
+  background-color: rgb(32, 38, 43) !important;
+  padding-bottom: 4.9rem;
+  /* padding-top: 1rem; */
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .professionalExperience {
+    height: 17.8rem !important;
+
+    margin-left: 0.238rem;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 458px) {
+  .resumeSummary {
+    margin-left: 0.238rem;
+  }
+
+  .professionalExperience {
+    height: 17.8rem !important;
+
+    margin-left: 0.238rem;
+  }
+}
+
+@media (max-width: 458px) and (min-width: 428px) {
+  .professionalExperience {
+    height: 19.18rem !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .resumeSummary {
+    height: 15.701rem !important;
+  }
+
+  .professionalExperience {
+    height: 22.17rem !important;
+  }
+
+  .resumeMain {
+    padding-bottom: 5.83rem !important;
+  }
+
+  .resumeButton {
+    margin-top: 2.78rem !important;
+    top: 2.89rem;
+  }
+}
+
+.resumeSummary {
+  position: relative;
+  border-left-width: 2.44px;
+  height: 14.27rem;
+  border-left-style: solid;
+  border-left-color: rgb(239, 87, 85);
+  padding-left: 1.4rem;
+  top: 1.4rem;
+}
+
+@media (min-width: 992px) {
+  .professionalExperience {
+    height: 17.67rem;
+  }
+}
+
+.dividerTop {
+  position: absolute;
+  top: 0px;
+  left: -8.9px;
+  width: 15.88px;
+  height: 15.88px;
+  background-color: rgb(239, 87, 85);
+  /* border-color: rgb(239, 87, 85); */
+  border-radius: 50px;
+}
+
+.resumeInner {
+  padding-top: 5.8rem;
+}
+
+/* .projectsIntro {
+
+    margin-bottom: 1rem !important;
+
+} */
+
+@media (max-width: 584px) {
+  .projectsTitleWrapper {
+    /* margin-left: .8rem */
+  }
+}
+
+@media (min-width: 1437px) {
+  .smallWidthMain {
+    display: none;
+  }
+}
+
+@media (max-width: 1437px) and (min-width: 768px) {
+  .skillWidth {
+    width: 25% !important;
+  }
+
+  .skillWidthTop {
+    width: 33.3% !important;
+  }
+}
+
+@media (max-width: 1437px) {
+  .skillWidth {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-top: 0.7rem;
+  }
+
+  .skillWidthTop {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-top: 0.7rem;
+  }
+
+  .smallWidth {
+    display: none;
+  }
+
+  /* .smallWidthTop {
+
+        display: none;
+    } */
+
+  .skillTools {
+    padding: 0.3rem;
+  }
+
+  .skillsContent {
+    padding-top: 2.3rem;
+  }
+
+  .mainSkills {
+    padding-bottom: 3.44rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .projectsTitleWrapper {
+    /* margin-left: .43rem */
+  }
+}
+
+@media (max-width: 768px) {
+  .mainProjectCard {
+    background-color: #111418 !important;
+    width: 23.8rem !important;
+    border-radius: 10px !important;
+    height: 13.7rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-top: 2.8rem;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .subProjectCard {
+    width: 23.8rem !important;
+    border-radius: 10px !important;
+    height: 13.7rem !important;
+    margin-bottom: 1.5rem;
+  }
+
+  .resumeInner {
+    padding-top: 3.18rem;
+  }
+
+  .resumeInnerCol {
+    padding-top: 3.71rem;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+  .projectsIntro {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .projectsContent {
+    padding-top: 0rem !important;
+  }
+
+  .mainProjectCard {
+    background-color: #111418 !important;
+    width: 23.8rem !important;
+    border-radius: 10px !important;
+    height: 13.7rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-top: 2.8rem;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .subProjectCard {
+    background-color: #111418 !important;
+    width: 20rem !important;
+    border-radius: 10px !important;
+    height: 13.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .dashboardImage {
+    width: 184px !important;
+    height: 184px !important;
+  }
+
+  .notebookImage {
+    width: 137px;
+    height: 137px;
+  }
+
+  .calculatorImage {
+    width: 167px;
+    height: 151.8px;
+  }
+}
+
+.mainProjectCard {
+  background-color: #111418 !important;
+  width: 27rem;
+  border-radius: 10px !important;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  margin-top: 2.8rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.mainProjectCard:hover .imageBlur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  backdrop-filter: blur(7px);
+  transition: all 0.5s;
+}
+
+.dashboardImage {
+  width: 209px;
+  height: 209px;
+}
+
+.mainProjectCard:hover img {
+  opacity: 0.05;
+  transform: scale(1.1);
+}
+
+.mainProjectCard img {
+  transform-origin: 0 0 0 0;
+  transition: transform 0.25s, visibility 0.25s ease-in;
+}
+
+.calculatorImage {
+  width: 167px;
+  height: 151.8px;
+}
+
+.notebookImage {
+  width: 137px;
+  height: 137px;
+}
+
+.mainProjectCard:hover .mainCardText {
+  visibility: visible;
+}
+
+.mainProjectCard:hover .mainCardButton {
+  visibility: visible;
+}
+
+.subProjectCard:hover .contactsCardText {
+  visibility: visible;
+}
+
+.subProjectCard:hover .contactsCardButton {
+  visibility: visible;
+}
+
+.subProjectCard:hover .calculatorCardText {
+  visibility: visible;
+}
+
+.subProjectCard:hover .calculatorCardButton {
+  visibility: visible;
+}
+
+.mainCardText {
+  font-size: 2.1rem;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 4;
+  visibility: hidden;
+}
+
+.contactsCardText {
+  font-size: 1.71rem;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 4;
+  visibility: hidden;
+}
+
+.calculatorCardText {
+  font-size: 1.599rem;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 4;
+  visibility: hidden;
+}
+
+.modalTitle {
+  padding-bottom: 2rem;
+}
+
+.projectImage {
+  width: 40.4rem !important;
+  height: 440px;
+}
+
+.carousel-status {
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  text-align: center;
+}
+
+.MuiModal-backdrop {
+  background-color: var(
+    --joy-palette-background-backdrop,
+    rgba(21, 21, 21, 0.88)
+  );
+}
+
+.mainModal {
+  width: 76.9rem !important;
+  height: 38.1rem;
+  overflow: auto !important;
+}
+
+.contactsCardButton {
+  width: 1.99rem !important;
+  height: 1.99rem !important;
+
+  position: absolute;
+  align-items: start;
+  text-align: start;
+  top: 10px;
+  left: 10px;
+  color: white;
+  z-index: 4;
+  visibility: hidden;
+}
+
+.calculatorCardButton {
+  width: 1.99rem !important;
+  height: 1.99rem !important;
+  position: absolute;
+  align-items: start;
+  text-align: start;
+  top: 10px;
+  left: 10px;
+  color: white;
+  z-index: 4;
+  visibility: hidden;
+}
+
+.subProjectCard {
+  background-color: #111418 !important;
+  width: 20.8rem;
+  border-radius: 10px !important;
+  height: 13.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.subProjectCard:hover .imageBlurNotebook {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+
+  backdrop-filter: blur(4px);
+  transition: all 0.5s;
+}
+
+.subProjectCard:hover .imageBlurCalculator {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+
+  backdrop-filter: blur(4px);
+  transition: all 0.5s;
+}
+
+.subProjectCard:hover img {
+  opacity: 0.038;
+  transform: scale(1.1);
+}
+
+.subProjectCard img {
+  transform-origin: 0 0 0 0;
+  transition: transform 0.25s, visibility 0.25s ease-in;
+}
+
+.width {
+  width: 100% !important;
+}
+
+@media (max-width: 1258px) and (min-width: 1200px) {
+  .contact {
+    padding: 0rem 1.5rem !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .projectImage {
+    max-height: 27.34rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .mainModal {
+    width: 65.9rem !important;
+    height: 38.1rem;
+  }
+
+  .projectImage {
+    width: 100% !important;
+    height: 21.1rem;
+  }
+}
+
+@media (min-width: 1004px) and (max-width: 1237px) {
+  .mainModal {
+    width: 50.9rem !important;
+    height: 38.1rem;
+  }
+
+  .projectImage {
+    width: 100% !important;
+    height: 21.1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1004px) {
+  .mainModal {
+    width: 40rem !important;
+    height: 43.1rem;
+  }
+
+  .projectImage {
+    width: 100% !important;
+    height: 15.7rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .visitSiteButton {
+    padding: 0rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .contactInfo {
+    padding-left: 1.34rem !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .mainModal {
+    width: 34rem !important;
+    height: 44.8rem;
+  }
+
+  .projectImage {
+    width: 100% !important;
+    height: 15.7rem;
+  }
+
+  .trackerModalPadding {
+    /* padding-top: .59rem !important; */
+  }
+
+  .contactInfo {
+    padding-left: 1rem !important;
+  }
+}
+
+@media (max-width: 618px) {
+  .projectsPadding {
+    padding-left: 0rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .mainModal {
+    width: 97% !important;
+    height: 97%;
+  }
+
+  .projectImage {
+    width: 100% !important;
+    height: 15.7rem;
+  }
+
+  .visitSiteButton {
+    padding: 0rem !important;
+  }
+
+  .trackerModalPadding {
+    /* padding-top: .59rem !important; */
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutMeParagraph {
+    padding-bottom: 2.8rem !important;
+  }
+
+  .aboutMeInfo {
+    padding-top: 2.9rem !important;
+  }
+
+  .contactNameCol {
+    padding-bottom: 1.5rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .contactDiv {
+    padding-top: 3.4rem !important;
+  }
+
+  .contactIcon {
+    width: 8.33%;
+    padding-right: 0rem !important;
+  }
+
+  .contactInfo {
+    width: 91.66%;
+    padding: 0 0 1rem 0.14rem;
+    position: relative;
+    right: 0.59rem;
+  }
+
+  .listColorContact {
+    padding-bottom: 0rem !important;
+  }
+
+  .contactInfoDisplay {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .contactInfo {
+    padding: 0 0 2.38rem 1.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .width {
+    width: calc(100vw - 16.625rem) !important;
+    left: 250px;
+    position: relative;
+    /* width: 100% !important; */
+  }
+
+  .aboutMe {
+    padding: 0 3rem 0;
+  }
+
+  .projects {
+    padding: 0 3rem 0;
+  }
+
+  .resume {
+    padding: 0 3rem 0;
+  }
+
+  .skills {
+    padding: 0 3rem 0;
+  }
+
+  .contact {
+    padding: 0 3rem 0;
+  }
+}
+
+.projectsContent {
+  padding-top: 1rem;
+}
+
+/* @media(max-width:1297px) and (min-width:768px) {
+
+    .width {
+        width: calc(100vw - 80px);
+        left: 80px;
+        position: relative;
+    }
+
+} */
+
+@media (min-width: 1200px) {
+  .bootstrapNav {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  /* .bootstrapNav {
+        display: none !important;
+    } */
+
+  .aboutMeInfo {
+    padding-top: 8.9rem !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .homePage {
+    padding-top: 15.89rem;
+  }
+}
+
+body {
+  color: rgb(168, 164, 158);
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.loginPopover .MuiPopover-paper {
+  background-color: #313131 !important;
+}
+
+@media (min-width: 1200px) {
+  .noProjectsOrTicketsTableMessageCol {
+    padding-bottom: 13.63rem !important;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .noProjectsOrTicketsTableMessageRow {
+    margin-top: 1.09rem !important;
+  }
+
+  .dashboardMessage {
+    margin-bottom: 9.2rem !important;
+    color: rgb(167, 164, 158);
+  }
+}
+
+@media (max-width: 1200px) {
+  .dashboardMessage {
+    color: rgb(167, 164, 158);
+  }
+
+  .noProjectsOrTicketsTableMessageCol {
+    padding-bottom: 10px !important;
+    padding-top: 15px !important;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .noProjectsOrTicketsTableMessageRow {
+    margin-top: 1.09rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .projectsTableCol {
+    margin-top: 2.5rem !important;
+  }
+
+  .ticketDetailsActivityContentDiv {
+    max-height: 28rem !important;
+  }
+
+  .ticketDetailsActivityCol {
+    margin-top: 1rem !important;
+    margin-bottom: 3rem !important;
+  }
+
+  .ProjectDetailsActivityContentDiv {
+    max-height: 25rem !important;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .ticketsByStatusColMargin {
+    margin-top: 2rem;
+  }
+
+  /* .ticketsByStatusColPadding {
+        padding-left: 6.25rem;
+    } */
+
+  .ticketsByStatusRow {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.dashboardRow1 {
+  margin-bottom: 2.5rem !important;
+}
+
+@media (max-width: 768px) {
+  /* .dashboardTicketsTable {
+
+        height: 21.5rem !important;
+    } */
+
+  .chartsCol {
+    margin-top: 2.5rem !important;
+  }
+
+  .ticketDetailsAttachmentsCol {
+    margin-top: 2.5rem !important;
+  }
+
+  .projectTeamCol {
+    margin-top: 2rem !important;
+  }
+
+  .projectManagerCard {
+    margin-top: 2rem !important;
+  }
+
+  .projectDetailsActivityCol {
+    margin-top: 2rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .projectInfoCard {
+    margin-bottom: 3rem !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .uncollapsedTicketsByStatusCard {
+    min-width: 250px !important;
+  }
+}
+
+/* .ticketsByStatusCol {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+}
+
+.ticketsByPriorityCol {
+    display: flex;
+    justify-content: center;
+} */
+
+@media (max-width: 576px) {
+  .ticketsByStatusCol {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+  }
+
+  .ticketsByPriorityCol {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ticketDetailsActivityContentDiv {
+    height: 46.1rem !important;
+  }
+
+  .ProjectDetailsActivityContentDiv {
+    max-height: 36.03rem !important;
+  }
+}
+
+.ticketDetailsInfoDiv {
+  height: 26.7rem !important;
+}
+
+.MuiInputLabel-root {
+  color: rgb(167, 164, 158) !important;
+}
+
+.textInput {
+  background-color: rgb(48, 54, 59) !important;
+  border-color: #637387 !important;
+  border-width: 1.4px;
+  font-size: 1rem !important;
+  color: #fff !important;
+  padding: 12.6px !important;
+}
+
+.invalid-feedback {
+  color: #c44438 !important;
+  padding-left: 0.98px !important;
+}
+
+.textInput.is-invalid {
+  background-color: rgb(48, 54, 59) !important;
+  border-color: #c44438 !important;
+  border-width: 1.4px;
+  font-size: 1rem !important;
+  color: #fff !important;
+  background-image: none;
+}
+
+.textInput.is-invalid:focus {
+  border-color: #e74738 !important;
+  border-width: 2px;
+}
+
+.form-control::placeholder {
+  color: rgb(167, 164, 158);
+  font-size: 1rem !important;
+}
+
+.form-control:-ms-input-placeholder {
+  color: rgb(167, 164, 158);
+  font-size: 1rem !important;
+}
+
+.form-control::-ms-input-placeholder {
+  color: rgb(167, 164, 158);
+  font-size: 1rem !important;
+}
+
+input.form-control {
+  min-height: 3.48rem !important;
+}
+
+textarea.form-control {
+  min-height: calc(1.5em + (7.98rem + 2px));
+}
+
+.textInput:focus {
+  border-color: rgb(125, 174, 216) !important;
+  border-width: 2px;
+  padding: 12px !important;
+}
+
+/* .MuiOutlinedInput-notchedOutline {
+    border-color: #909090 !important;
+
+} */
+
+.MuiOutlinedInput-notchedOutline .Mui-error {
+  border-color: #909090 !important;
+}
+
+.MuiTablePagination-selectLabel {
+  margin-bottom: 0 !important;
+}
+
+.MuiTablePagination-displayedRows {
+  margin-bottom: 0 !important;
+}
+
+/* MUI DATE PICKER */
+
+.MuiPickersLayout-contentWrapper {
+  /* color: rgb(254, 16, 16) !important; */
+  background-color: rgb(131, 131, 131) !important;
+}
+
+/* .MuiPickersLayout-root {
+    color: rgb(254, 16, 16) !important;
+    background-color: green !important;
+}
+
+.MuiPickersLayout-landscape {
+    color: rgb(254, 16, 16) !important;
+    background-color: green !important;
+}
+
+.MuiPickersLayout-toolbar {
+    color: rgb(254, 16, 16) !important;
+    background-color: green !important;
+}
+
+.MuiPickersLayout-actionBar {
+    color: rgb(254, 16, 16) !important;
+    background-color: green !important;
+} */
+
+/* ////////////// */
+
+.filepondDiv {
+  height: 12.206rem !important;
+}
+
+/* FILEPOND */
+
+@media (max-width: 768px) {
+  .projectsCreateButton {
+    padding-right: 0rem !important;
+  }
+}
+
+.testing {
+  /* width: 150%; */
+  font-size: 37px !important;
+  padding-bottom: 1rem !important;
+}
+
+.createPage .filepond--drop-label label {
+  cursor: pointer;
+  width: 18rem !important;
+  height: 3rem !important;
+}
+
+.t {
+  position: relative;
+  bottom: 7px;
+  right: 2px;
+}
+
+.r {
+  position: relative;
+  bottom: 7px;
+  left: 2px;
+  /* width: 150% */
+}
+
+.createPage .filepond--drop-label {
+  cursor: pointer;
+  /* width: 10rem !important; */
+  height: 8rem !important;
+  padding-bottom: 2.8rem !important;
+}
+
+.uploadProjectImageButton {
+  /* background-color: rgb(25, 118, 209) !important; */
+  font-size: 12.9px !important;
+  margin-top: 0.1rem;
+  margin-bottom: 1.8rem;
+  color: rgb(144, 202, 249) !important;
+  width: 4.8rem;
+  border: 1px solid rgba(144, 202, 249, 0.5);
+}
+
+.uploadProjectImageButton:hover {
+  background-color: rgba(144, 202, 249, 0.08) !important;
+  border: 1px solid rgb(144, 202, 249);
+}
+
+.createPage .filepond--panel-root {
+  /* background-color: #0F0F0F !important;
+    border-color: #d4d3d3 !important;
+    border-width: 5px !important; */
+  /* height: 130%; */
+  background-color: transparent;
+  border: 3px solid #1d1e20;
+  /* max-height: 11.125rem !important; */
+  padding-bottom: 5.4rem;
+  /* max-height: 11.125rem !important; */
+  /* height: 8rem !important; */
+  /* margin-bottom: 1em !important; */
+  /* min-height: 178px !important; */
+}
+
+.createPage .filepond--root {
+  /* min-height: 178px !important; */
+  max-height: 100% !important;
+  /* height: 8rem !important; */
+  /* margin-bottom: 1em !important; */
+
+  /* height: 12.8rem !important; */
+}
+
+.ticketDetails .filepond--panel-root {
+  cursor: pointer;
+  max-height: 100% !important;
+
+  background-color: rgb(35, 35, 35) !important;
+  /* height: 10px !important */
+}
+
+.ticketDetails .filepond--root {
+  cursor: pointer;
+  /* height: 76px !important */
+}
+
+.ticketDetails .filepond--drop-label label {
+  cursor: pointer;
+  color: rgb(200, 200, 200);
+
+  /* width: 18rem !important; */
+  /* height: 3rem !important; */
+}
+
+.ticketDetails .filepond--drop-label {
+  cursor: pointer;
+  /* color: rgb(200, 200, 200); */
+  padding-top: 1.65rem !important;
+  /* width: 18rem !important; */
+  /* height: 3rem !important; */
+}
+
+.ticketDetails .browseButton {
+  cursor: pointer;
+  color: rgb(229, 229, 229);
+  border-radius: 15px;
+  font-weight: bold !important;
+}
+
+.ticketDetails .browseButton:hover {
+  cursor: pointer;
+  color: rgb(229, 229, 229);
+  background-color: #85858508 !important;
+  border-radius: 15px;
+}
+
+.ticketDetails .filepond--file-info {
+  display: none !important;
+}
+
+/* .filepond--image-preview-wrapper {
+
+    display: none !important;
+}
+ */
+
+/* ////////////// */
+
+.attachmentDiv {
+  background-color: rgb(78, 78, 78) !important;
+  height: 2rem;
+  border-radius: 16px;
+  padding-top: 0.129rem;
+}
+
+.attachmentText {
+  font-size: 0.8125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 0.25rem;
+  /* padding-right: 2rem; */
+  position: relative !important;
+  right: 9px;
+}
+
+.attachmentIcon {
+  font-size: 20px !important;
+}
+
+.attachmentButtonDownload {
+  position: relative !important;
+  right: 9px;
+}
+
+.attachmentButtonView {
+  position: relative !important;
+  right: 15px;
+}
+
+.projectsCreateDiv {
+  border-color: #313131;
+  border-width: 0.05rem;
+  border-style: solid;
+  border-radius: 0.44rem;
+  padding: 3rem 3rem 2rem;
+  /* width: 150%; */
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.625rem 1.25rem;
+}
+
+.demoLoginButton:hover {
+  background-color: rgba(144, 144, 36, 0.92) !important;
+}
+
+.adminLoginButton:hover {
+  background-color: rgba(53, 53, 53, 0.92) !important;
+}
+
+.adminLoginButton {
+  background-color: rgba(61, 61, 61, 0.92) !important;
+}
+
+.ticketsCreateDiv {
+  border-color: #313131;
+  border-width: 0.05rem;
+  border-style: solid;
+  border-radius: 0.53rem;
+  padding: 3rem 3rem 3rem;
+  /* width: 150%; */
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.625rem 1.25rem;
+}
+
+.manageTeamDiv {
+  border-color: #313131;
+  border-width: 0.05rem;
+  border-style: solid;
+  border-radius: 0.53rem;
+  padding: 3rem 3rem 3rem;
+  /* width: 150%; */
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.625rem 1.25rem;
+  max-width: 31rem;
+}
+
+.loginDiv {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 28rem;
+  border-color: #313131;
+  border-width: 0.05rem;
+  border-style: solid;
+  border-radius: 0.44rem;
+  padding: 3rem 1.75rem 3rem;
+  /* width: 150%; */
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.625rem 1.25rem;
+}
+
+.demoLoginDiv {
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 28rem;
+  border-color: #313131;
+  border-width: 0.05rem;
+  border-style: solid;
+  border-radius: 0.44rem;
+  padding: 1.8rem 1.75rem 3rem;
+  /* width: 150%; */
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.625rem 1.25rem;
+}
+
+.demoLoginPageDiv {
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 25rem;
+  border-color: #313131;
+  border-width: 0.05rem;
+  border-style: solid;
+  border-radius: 0.44rem;
+  padding: 1.8rem 3rem 3rem;
+  /* width: 150%; */
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0.625rem 1.25rem;
+}
+
+.recharts-tooltip-wrapper {
+  /* border: 1px solid #4f4f4f !important; */
+  outline: none !important;
+}
+
+.recharts-tooltip-wrapper:hover {
+  /* border: 1px solid #4f4f4f !important; */
+  outline: none !important;
+}
+
+.dashboardTableButtons {
+  padding-top: 0.1rem !important;
+  padding-bottom: 0.1rem !important;
+}
+
+.recharts-default-tooltip {
+  border: 1.5px solid #4f4f4f !important;
+  background-color: black;
+  outline: none !important;
+}
+
+.recharts-default-tooltip:hover {
+  border: 1.5px solid #4f4f4f !important;
+  background-color: black;
+  outline: none !important;
+}
+
+/* .chartTooltip {
+
+    border: 1.5px solid rgb(83, 83, 83) !important
+} */
+
+/* .barChart {
+    max-width: 30rem !important;
+    max-height: 30rem !important;
+} */
+
+a {
+  cursor: pointer;
+}
+
+.settingsToggleDiv:hover {
+  background-color: #282828 !important;
+  border-radius: 50%;
+  /* margin-left: .12rem; */
+  width: 2.7rem;
+}
+
+.settingsToggleDiv {
+  /* background-color: #282828 !important;
+    border-radius: 50%;
+    margin-left: .12rem; */
+  width: 2.7rem;
+}
+
+.sideNavToggleDiv:hover {
+  background-color: #282828 !important;
+  border-radius: 50%;
+  margin-left: 0.12rem;
+}
+
+.sideNavToggleDiv {
+  margin-left: 0.12rem;
+}
+
+.sideNavText {
+  color: #c4c4c4;
+  font-size: 0.9rem;
+}
+
+/* .sideNavText:hover {
+    color: #f1f1f1;
+} */
+
+.sideNavIconDivInnerText {
+  /* background-color: #202020 !important; */
+
+  /* border-radius: 9px; */
+
+  /* margin-left: .7rem;
+    padding-left: .8rem; */
+}
+
+/* .sideNavIconDivInnerText {
+    background-color: #202020 !important;
+} */
+
+@media (min-width: 520px) {
+  .assignTeamButton {
+    padding-right: 15.3px;
+  }
+}
+
+@media (min-width: 768px) {
+  .assignTeamButton {
+    padding-right: 15.3px;
+  }
+}
+
+.pieSize {
+  width: 10rem;
+}
+
+.test {
+  max-width: 15rem !important;
+}
+
+.MuiChip-filled {
+  background-color: white !important;
+}
+
+.signUpWidth {
+  width: 50%;
+}
+
+.mediumFont {
+  font-size: 0.65rem;
+}
+
+.smallFont {
+  font-size: 0.55rem;
+}
+
+.scrollable {
+  overflow: auto;
+  max-height: 100vh;
+  /* overflow-x: hidden; */
+  direction: rtl;
+}
+
+.scrollableComments {
+  overflow: auto;
+  max-height: 17rem;
+  /* overflow-x: hidden; */
+  direction: ltr;
+}
+
+.direction {
+  direction: ltr;
+}
+
+/* MUI TABLE */
+
+@media (max-height: 596px) {
+  .linkToProfile {
+    position: relative !important;
+    margin-top: 2.189rem !important;
+  }
+
+  .linkedInIcon {
+    position: relative !important;
+    margin-top: 2.189rem !important;
+    left: 0.8rem;
+  }
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root,
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active {
+  color: rgb(255, 255, 255) !important;
+}
+
+@media (min-width: 600px) {
+  .tableWrapper {
+    border-radius: 10px;
+  }
+}
+
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+  color: rgb(255, 255, 255) !important;
+}
+
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root.Mui-disabled {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.tableWrapper {
+  position: relative;
+  outline: 0px;
+  margin: auto;
+  display: block;
+  -moz-box-pack: center;
+  justify-content: center;
+  padding: 12px;
+  background-color: rgb(26, 32, 39);
+}
+
+.minHeight {
+  min-height: 30rem;
+}
+
+@media (min-width: 1200px) {
+  .tableWrapperDashboard {
+    position: relative;
+    outline: 0px;
+    margin: auto;
+    display: block;
+    -moz-box-pack: center;
+    justify-content: center;
+    padding: 12px;
+    background-color: rgb(26, 32, 39);
+    /* height: 34rem; */
+    border-radius: 10px;
+  }
+}
+
+.tableWrapperDashboard {
+  position: relative;
+  outline: 0px;
+  margin: auto;
+  display: block;
+  -moz-box-pack: center;
+  justify-content: center;
+  padding: 12px;
+  background-color: rgb(26, 32, 39);
+  border-radius: 10px;
+}
+
+/* .dashboardChart {
+
+    width: 30rem !important;
+    height: 15rem !important;
+
+} */
+
+.tableWrapperProjectsDetails {
+  position: relative;
+  outline: 0px;
+  margin: auto;
+  display: block;
+  -moz-box-pack: center;
+  justify-content: center;
+  padding: 12px;
+  background-color: rgb(26, 32, 39);
+  /* height: 34rem; */
+  border-radius: 10px;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active
+  .MuiTableSortLabel-icon,
+.MuiTableSortLabel-icon:hover {
+  opacity: 1;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* ////////// */
+
+::-webkit-file-upload-button {
+  background: black;
+  color: red;
+  padding: 1em;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #81ecec !important;
+  border: 2px solid #00cec9 !important;
+}
+
+input[type="file"]::file-selector-button {
+  border: 1px solid rgb(128, 121, 111);
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  transition: 1s;
+  background-color: rgb(53, 54, 55);
+  color: rgb(189, 186, 181);
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #81ecec !important;
+  border: 2px solid #00cec9 !important;
+}
+
+input[type="file"]::-ms-browse:hover {
+  background-color: #81ecec !important;
+  border: 2px solid #00cec9 !important;
+}
+
+/* input[type="file"] {
+    display: none;
+} */
+
+.btn-dark {
+  background-color: rgb(53, 54, 55);
+  border-color: rgb(128, 121, 111);
+}
+
+.btn-dark:hover {
+  color: rgb(201, 199, 197);
+  background-color: rgb(55, 56, 57);
+  border-color: rgb(129, 123, 113);
+}
+
+.btn-primary:hover {
+  color: rgb(201, 199, 197);
+  background-color: rgb(55, 56, 57);
+  border-color: rgb(129, 123, 113);
+}
+
+.btn-primary {
+  /* color: #fff; */
+  background-color: rgb(53, 54, 55);
+  border-color: rgb(128, 121, 111);
+}
+
+a:hover {
+  color: rgba(206, 204, 202, 0.9);
+}
+
+a {
+  color: rgba(151, 149, 147, 0.7);
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+/* .card {
+    background-color: rgb(66, 68, 70);
+    border-color: rgba(137, 129, 118, 0.13);
+} */
+
+.btn {
+  color: rgb(189, 186, 181);
+}
+
+.btn:hover {
+  color: rgba(151, 149, 147, 0.7);
+}
+
+.form-control {
+  color: rgb(189, 186, 181);
+  background-color: rgb(63, 66, 67);
+  border-color: rgb(77, 81, 83);
+}
+
+.form-control:valid {
+  color: rgb(189, 186, 181);
+  background-color: rgb(63, 66, 67);
+  border-color: rgb(77, 81, 83);
+}
+
+.form-control:focus,
+.form-control:valid {
+  color: rgb(189, 186, 181);
+  background-color: rgb(63, 66, 67);
+  border-color: rgb(77, 81, 83);
+}
+
+.form-select {
+  color: rgb(189, 186, 181);
+  background-color: rgb(50, 51, 52);
+  border-color: rgb(77, 81, 83);
+}
+
+.list-group-item {
+  color: rgb(192, 189, 186);
+  text-decoration-color: currentcolor;
+  background-color: rgb(81, 85, 87);
+  border-color: rgba(137, 129, 118, 0.13);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(206, 204, 202, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(151, 149, 147, 0.7);
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: rgba(151, 149, 147, 0.7);
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(206, 204, 202, 0.9);
+}
+
+/* .table {
+
+    color: rgb(189, 186, 181);
+} */
+
+.text-muted {
+  color: rgb(150, 144, 135) !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: rgba(206, 204, 202, 0.9);
+}
+
+.nav-link:focus,
+.nav-link {
+  color: rgba(151, 149, 147, 0.7);
+}
+
+.searchList {
+  position: absolute;
+  width: 100%;
+}
+
+.container1 {
+  position: relative;
+}
+
+#nav li:hover a {
+  color: rgba(201, 199, 197, 0.9);
+}
+
+.bootstrapNav {
+  padding-top: 1.54rem;
+  position: fixed;
+  top: 0;
+  z-index: 8;
+  width: 100%;
+  background-color: #111418 !important;
+}
+
+.navbar-brand {
+  position: relative;
+  bottom: 0.81rem;
+  left: 0.97rem;
+}
+
+.navItems {
+  padding-left: 0.97rem;
+  padding-right: 0.97rem;
+}
+
+.headerButton:hover {
+  /* color: rgb(30, 208, 148) !important; */
+  color: rgb(125, 174, 216) !important;
+}
+
+.navToggle {
+  font-size: 2.1rem !important;
+  color: rgb(243, 243, 243);
+  position: relative;
+  bottom: 0.74rem;
+  right: 1.4rem;
+}
+
+/* 
+THIS IS TO REMOVE THE MAX WIDTH THAT COMES WITH THE CONTAINER BOOTSTRAP CLASS SO THE HAMBURGER MENU CAN GO ALL THE WAY TO THE RIGHT */
+.moveHamburgerToRight {
+  max-width: 2000px;
+}
+
+.float {
+  position: relative;
+  float: right;
+}
+
+.pointer-link {
+  cursor: pointer;
+  color: rgba(201, 199, 197, 0.7);
+}
+
+.css:hover {
+  color: rgba(201, 199, 197, 0.7) !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* REMOVES BULLET POINTS (BLACK DOTS) FROM MY UL  */
+/* ul {
+    list-style-type: none;
+} */
+
+/* i {
+    color: black;
+    font-size: 1.4rem;
+
+} */
+
+/* .main {
+
+    display: table-caption !important;
+} */
+@media (min-width: 880px) {
+  .margin {
+    margin-left: 7rem !important;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 880px) {
+  .margin {
+    margin-left: 2rem !important;
+  }
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  border-color: #6f6b66;
+  background-image: none;
+  box-shadow: none !important;
+}
+
+.form-select.is-valid,
+.was-validated .form-select:valid {
+  border-color: #6f6b66;
+  background-image: none !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.ap-ul {
+  font-size: 0.8rem;
+  padding-left: 0.77rem;
+  color: #6a7075;
+}
+
+.ul-no-bullet-point {
+  list-style-type: none;
+}
+
+/* .cardImage {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+} */
+
+.card {
+  /* width: 17rem; */
+  /* height: 100%; */
+}
+
+/* .card-body {
+
+    width: 100%;
+    height: 100%;
+
+
+} */
+
+.image {
+  width: 100%;
+  height: 15rem;
+}
+
+.min-height {
+  min-height: 76px;
+}
+
+.col {
+  /* padding-right: 0px;
+    padding-left: 0px; */
+
+  height: 80%;
+}
+
+/* .card-img-top {
+    width: 100%;
+    height: 50%;
+} */
+
+@media (max-width: 574px) {
+  .imageCardDiv {
+    width: 100%;
+    /* 
+
+        float: left; */
+    /* min-height: 3rem; */
+    max-height: 12.5rem;
+    margin-bottom: 0px;
+  }
+
+  .imageCardBodyDiv {
+    max-height: 8rem;
+  }
+
+  .contactCardDiv {
+    text-align: center;
+
+    width: 100%;
+    /* float: right; 
+        min-height: 5rem; */
+  }
+
+  .cardImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 17%;
+  }
+
+  .contactName {
+    /* font-size: 105%; */
+    margin-top: 0.4rem;
+    font-size: large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  /* main {
+
+        margin-left: 2rem;
+        margin-right: 2rem;
+
+    } */
+
+  /* .card-body {
+
+        padding-bottom: .5rem;
+    } */
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .imageCardDiv {
+    width: 44%;
+    float: left;
+    height: 100%;
+    min-height: 13.9rem;
+    max-height: 85.5%;
+  }
+
+  .contactCardDiv {
+    width: 56%;
+    float: right;
+    min-height: 13.9rem;
+    margin-top: 3rem;
+    /* margin-right: 3%; */
+  }
+
+  .addressDiv {
+    margin-bottom: 0.5rem;
+    min-height: 3.1rem;
+  }
+
+  .setCardWidthDiv {
+    width: 32.25rem;
+  }
+
+  .cardImage {
+    width: 80%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contactName {
+    /* font-size: 105%; */
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 799px) {
+  .imageCardDiv {
+    width: 37%;
+    float: left;
+    height: 100%;
+    min-height: 88%;
+    max-height: 85%;
+  }
+
+  .imageCardBodyDiv {
+    padding: 0.3rem;
+  }
+
+  .contactCardDiv {
+    /* width: 56%; */
+    width: 60%;
+
+    min-height: 88%;
+    margin-right: 3%;
+    margin-top: 48px;
+  }
+
+  .cardImage {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contactName {
+    /* font-size: 105%; */
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: large;
+  }
+
+  .addressDiv {
+    margin-bottom: 0.5rem;
+    min-height: 3.1rem;
+  }
+
+  /* main {
+
+        margin-left: 2%;
+        margin-right: 2%;
+    } */
+
+  .container {
+    /* position: absolute; */
+    /* width: 70rem; */
+    /* margin-left: 1%;
+        margin-right: 1%;
+        padding: 0%;
+        max-width: 100%;
+        width: 100%; */
+  }
+}
+
+@media (min-width: 800px) and (max-width: 880px) {
+  .imageCardDiv {
+    width: 10rem;
+    float: left;
+    height: 100%;
+    min-height: 88%;
+    max-height: 85%;
+  }
+
+  .contactCardDiv {
+    /* width: 56%; */
+    width: 55%;
+
+    min-height: 88%;
+    margin-right: 3%;
+    margin-top: 48px;
+  }
+
+  .cardImage {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contactName {
+    /* font-size: 105%; */
+    margin-top: 1.88rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: large;
+  }
+
+  .addressDiv {
+    margin-bottom: 0.5rem;
+    min-height: 3.1rem;
+  }
+
+  /* 
+    main {
+
+        margin-left: 2%;
+        margin-right: 2%;
+    } */
+
+  .container {
+    /* position: absolute; */
+    /* width: 70rem; */
+    /* margin-left: 1%;
+        margin-right: 1%;
+        padding: 0%;
+        max-width: 100%;
+        width: 100%; */
+  }
+}
+
+@media (min-width: 880px) and (max-width: 989px) {
+  .imageCardDiv {
+    width: 10rem;
+    float: left;
+    height: 100%;
+    min-height: 88%;
+    max-height: 85%;
+  }
+
+  .contactCardDiv {
+    /* width: 56%; */
+    width: 59%;
+
+    min-height: 88%;
+    margin-right: 3%;
+    margin-top: 48px;
+  }
+
+  .cardImage {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contactName {
+    /* font-size: 105%; */
+    margin-top: 1.7rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .addressDiv {
+    margin-bottom: 0.5rem;
+    min-height: 3.1rem;
+  }
+
+  /* main {
+
+        margin-left: 2%;
+        margin-right: 2%;
+    } */
+
+  .container {
+    /* position: absolute; */
+    /* width: 70rem; */
+    /* margin-left: 1%;
+        margin-right: 1%;
+        padding: 0%;
+        max-width: 100%;
+        width: 100%; */
+  }
+}
+
+@media (min-width: 990px) {
+  .marginLeft {
+    margin-left: 1.5rem;
+  }
+
+  .imageCardDiv {
+    width: 44%;
+    float: left;
+    height: 100%;
+    min-height: 85.5%;
+    max-height: 7%;
+  }
+
+  .contactCardDiv {
+    margin-top: 48px;
+    margin-right: 3%;
+    min-height: 83%;
+  }
+
+  .cardImage {
+    max-width: 84%;
+  }
+
+  .contactName {
+    /* font-size: 105%; */
+    margin-top: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .addressDiv {
+    margin-bottom: 0.5rem;
+    min-height: 3.1rem;
+  }
+}
